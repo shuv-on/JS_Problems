@@ -26,7 +26,7 @@ function reverseString(str){
     for(let i = str.length - 1; i >= 0; i--){
         result += str[i];
     }
-    if (str==result){
+    if (str===result){
         return true;
     }else{
         return false;
@@ -59,7 +59,7 @@ function sumArr(arr){
 function evenNum(arr){
     let even =[];
     for (let i=0;i<arr.length; i++){
-        if(arr[i]%2==0){
+        if(arr[i]%2===0){
             even.push(arr[i]);  
         }
     }
